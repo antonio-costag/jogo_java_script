@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+body{
+    background-color: grey;
+    font-family: 'tiny5', serif;
+}
+#todo{
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    margin-top: 70px;
+}
+#tela{
+    background-color: rgb(180, 174, 245);
+    height: 500px;
+    width: 500px;
+}
+#player{
+    height: 32px;
+    width: 32px;
+    position: relative;
+    top: 468px;
+    left: 230px;
+    background-image: url(../img/player00.png);
+    transform: scaleX(1);
+}
+#botoes{
+    height: 100px;
+    width: 200px;
+    margin-left: 150px;
+    float: left;
+}
+#pontos{
+    height: 50px;
+    width: 150px;
+    float: right;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(180, 174, 245);
+}
+#esquerda{
+    background-color: rgb(146, 145, 145);
+    height: 90px;
+    width: 90px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-image: url(../img/esquerda.png);
+    border-radius: 10px;
+}
+#direita{
+    background-color: rgb(146, 145, 145);
+    height: 90px;
+    width: 90px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-image: url(../img/direita.png);
+    border-radius: 10px;
+}
+#limite01{
+    height: 500px;
+    width: 200px;
+    float: left;
+}
+#limite02{
+    height: 500px;
+    width: 100px;
+    float: left;
+}
+#limite03{
+    height: 500px;
+    width: 200px;
+    float: right;
+}
+
+#box01{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 0px;
+    float: left;
+    background-image: url(../img/componente01.png);
+}
+#box02{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    float: right;
+    background-image: url(../img/sumi.png);
+}
+#box03{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-image: url(../img/sumi.png);
+}
+#box04{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    float: left;
+    background-image: url(../img/sumi.png);
+}
+#box05{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    float: right;
+    background-image: url(../img/sumi.png);
+}
